@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light background color */
+  }
+  
+  .course-card {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .course-info {
+    padding: 16px;
+  }
+  
+  .course-info h3 {
+    margin: 0 0 8px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .course-info p {
+    margin: 0 0 12px;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .course-info .instructor {
+    font-weight: bold;
+  }
+  
+  .course-info .price {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .enroll-button {
+    background-color: #e44d26; /* Udemy orange color */
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
